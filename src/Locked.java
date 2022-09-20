@@ -1,8 +1,6 @@
-import java.io.File;
-
 public interface Locked {
-    void FilesInAscendingOrder();
-    void AddFile();
-    void DeleteFile();
-    void SearchFile();
+    void filesInAscendingOrder(String path);
+    void addFile(String filename,String path);
+    void deleteFile();
+    void searchFile();
 }
