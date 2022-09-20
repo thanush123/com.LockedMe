@@ -1,4 +1,5 @@
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -21,23 +22,29 @@ public class Lockedimpl implements Locked{
         }
     }
     @Override
-    public void addFile(String filename,String path) {
-       try {
-           File f=new File(path+"/"+filename);
-           System.out.println(f.createNewFile());
-       }
-       catch(Exception e) {
-           e.getStackTrace();
+    public void addFile(String filename1,String path) throws IOException {
+           File f=new File(path+"/"+filename1);
+           if(f.exists()){
+               System.out.println("File already exist");
+           }
+           else {
+               if(f.createNewFile())
+                   System.out.println(filename1+" file created");
+           }
+    }
+    @Override
+    public void deleteFile(String filename,String path) {
+        File f=new File(path+"/"+filename);
+        if(f.exists()){
+            if(f.delete())
+                System.out.println("File is deleted");
         }
+        else
+            System.out.println("File not Found");
     }
 
     @Override
-    public void deleteFile() {
-
-    }
-
-    @Override
-    public void searchFile() {
+    public void searchFile(String filename,String path) {
 
     }
 }
