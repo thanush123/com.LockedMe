@@ -45,6 +45,11 @@ public class Lockedimpl implements Locked{
 
     @Override
     public void searchFile(String filename,String path) {
-
+        File f=new File(path+"/"+filename);
+        if(f.exists()){
+            System.out.println(filename+" file found");
+        }
+        else
+            System.out.println("File not found");
     }
 }
