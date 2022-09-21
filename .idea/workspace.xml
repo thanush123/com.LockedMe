@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9e392c9-a4e0-4acf-80ad-cc569e6ac47b" name="Changes" comment="Added sort and add file">
-      <change beforePath="$PROJECT_DIR$/src/Lockedimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lockedimpl.java" afterDir="false" />
+    <list default="true" id="f9e392c9-a4e0-4acf-80ad-cc569e6ac47b" name="Changes" comment="Added sort and add file 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663694583853</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added sort and add file 1">
+      <created>1663694953402</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663694953402</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +106,7 @@
     <MESSAGE value="New Files 1" />
     <MESSAGE value="Added sort and add file new" />
     <MESSAGE value="Added sort and add file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added sort and add file" />
+    <MESSAGE value="Added sort and add file 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sort and add file 1" />
   </component>
 </project>
