@@ -30,13 +30,19 @@ public class Main {
                     char ch = sc.next().charAt(0);
                     switch (ch) {
                         case 'a':
-                            lm.addFile("name.txt", PATH);
+                            System.out.print("Enter the name of file: ");
+                            String fn=sc.next();
+                            lm.addFile(fn, PATH);
                             break;
                         case 'b':
-                            lm.deleteFile("name.txt", PATH);
+                            System.out.print("Enter the name of file: ");
+                            fn=sc.next();
+                            lm.deleteFile(fn, PATH);
                             break;
                         case 'c':
-                            lm.searchFile("name.txt", PATH);
+                            System.out.print("Enter the name of file: ");
+                            fn=sc.next();
+                            lm.searchFile(fn, PATH);
                             break;
                         case 'd':
                             break;
