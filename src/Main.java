@@ -8,7 +8,8 @@ public class Main {
         String PATH="/Users/thanushkumarreddykondreddy/Desktop/work python";
         Lockedimpl lm=new Lockedimpl();
         System.out.println("-----------------------------Welcome-----------------------------");
-        System.out.println("Iam Thanush Kumar Reddy and app name which i developed is LOCKEDME");
+        System.out.println("Name: Kondreddy Thanush Kumar Reddy");
+        System.out.println("App Name: LOCKEDME");
 
         Scanner sc=new Scanner(System.in);
         while (true){
