@@ -36,7 +36,7 @@ public class Lockedimpl implements Locked{
         File f=new File(path+"/"+filename);
         if(f.exists()){
             if(f.delete())
-                System.out.println("File is deleted");
+                System.out.println(filename+" file is deleted");
         }
         else
             System.out.println("File not Found");
